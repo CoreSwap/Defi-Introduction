@@ -1,0 +1,89 @@
+You may think of staking as a less resource-intensive alternative to mining. It involves holding funds in a cryptocurrency wallet to support the security and
+operations of a blockchain network. Simply put, staking is the act of locking cryptocurrencies to receive rewards.
+
+In most cases, you’ll be able to stake your coins directly from your crypto wallet, such as Meta Mask and Trust Wallet. On the other hand, many exchanges offer 
+staking services to their users. 
+ 
+To get a better grasp of what staking is, you’ll first need to understand how Proof of Stake (PoS) works. PoS is a consensus mechanism that allows blockchains to
+operate more energy-efficiently while maintaining a decent degree of decentralization (at least, in theory). Let’s dive into what PoS is and how staking works.
+
+
+What is Proof of Stake (PoS)?
+If you know how Bitcoin works, you’re probably familiar with Proof of Work (PoW). It’s the mechanism that allows transactions to be gathered into blocks. Then,
+these blocks are linked together to create the blockchain. More specifically, miners compete to solve a complex mathematical puzzle, and whoever solves it first
+gets the right to add the next block to the blockchain.
+
+Proof of Work has proven to be a very robust mechanism to facilitate consensus in a decentralized manner. The problem is, it involves a lot of arbitrary
+computation. The puzzle the miners are competing to solve serves no purpose other than keeping the network secure. One could argue, this in itself makes this excess
+of computation justifiable. At this point, you might be wondering: are there other ways to maintain decentralized consensus without the high computational cost?
+
+
+Here is the Proof of Stake. The main idea is that participants can lock coins (their “stake”), and at particular intervals, the protocol randomly assigns the right
+to one of them to validate the next block. Typically, the probability of being chosen is proportional to the amount of coins – the more coins locked up, the higher
+the chances.
+
+
+What is Delegated Proof of Stake (DPoS)?
+An alternative version of this mechanism was developed in 2014 by Daniel Larimer called Delegated Proof of Stake (DPoS). It was first used as a part of the 
+BitShares blockchain, but soon after, other networks adopted the model. These include Steem and EOS, which were also created by Larimer.
+
+
+DPoS allows users to commit their coin balances as votes, where voting power is proportional to the number of coins held. These votes are then used to elect a
+number of delegates who manage the blockchain on behalf of their voters, ensuring security and consensus. Typically, the staking rewards are distributed to these
+elected delegates, who then distribute part of the rewards to their electors proportionally to their individual contributions.
+
+The DPoS model allows for consensus to be achieved with a lower number of validating nodes. As such, it tends to enhance network performance. On the other hand, it
+may also result in a lower degree of decentralization as the network relies on a small, select group of validating nodes. These validating nodes handle the 
+operations and overall governance of the blockchain. They participate in the processes of reaching consensus and defining key governance parameters. Simply put,
+DPoS allows users to signal their influence through other participants of the network.
+
+How does staking work?
+As we’ve discussed before, Proof of Work blockchains rely on mining to add new blocks to the blockchain. In contrast, Proof of Stake chains produce and
+validate new blocks through the process of staking. Staking involves validators who lock up their coins so they can be randomly selected by the protocol
+at specific intervals to create a block. Usually, participants that stake larger amounts have a higher chance of being chosen as the next block validator.
+
+This allows for blocks to be produced without relying on specialized mining hardware, such as ASICs. While ASIC mining requires a significant investment in
+hardware, staking requires a direct investment in the cryptocurrency itself. So, instead of competing for the next block with computational work, PoS 
+validators are selected based on the number of coins they are staking. The “stake” (the coin holding) is what incentivizes validators to maintain 
+network security. If they fail to do that, their entire stake might be at risk.
+
+While each Proof of Stake blockchain has its particular staking currency, some networks adopt a two-token system where the rewards are paid in a 
+second token.
+On a very practical level, staking just means keeping funds in a suitable wallet. This enables essentially anyone to perform various network functions
+in return for staking rewards. It may also include adding funds to a staking pool, which we’ll cover shortly.
+
+How are staking rewards calculated?
+There’s no short answer here. Each blockchain network may use a different way of calculating staking rewards.
+Some are adjusted on a block-by-block basis, taking into account many different factors. These can include:
+•	how many coins the validator is staking 
+•	how long the validator has been actively staking
+•	how many coins are staked on the network in total 
+•	the inflation rate
+•	other factors
+
+For some other networks, staking rewards are determined as a fixed percentage. These rewards are distributed to validators as a sort of compensation 
+for inflation. Inflation encourages users to spend their coins instead of holding them, which may increase their usage as  cryptocurrency. But with this model, 
+validators can calculate exactly what staking reward they can expect.
+A predictable reward schedule rather than a probabilistic chance of receiving a block reward may look favorable to some. And since this is public 
+information, it might incentivize more participants to get involved in staking. 
+
+What is a staking pool?
+A staking pool is a group of coin holders merging their resources to increase their chances of validating blocks and receiving rewards. They combine
+their staking power and share the rewards proportionally to their contributions to the pool.
+
+Setting up and maintaining a staking pool often requires a lot of time and expertise. Staking pools tend to be the most effective on networks 
+where the barrier of entry (technical or financial) is relatively high. As such, many pool providers charge a fee from the staking rewards that are 
+distributed to participants.
+Other than that, pools may provide additional flexibility for individual stakers. Typically, the stake has to be locked for a fixed period and 
+usually has a withdrawal or unbinding time set by the protocol. What’s more, there’s almost certainly a substantial minimum balance 
+required to stake to disincentivize malicious behavior.
+
+Most staking pools require a low minimum balance and append no additional withdrawal times. As such, joining a staking pool instead of 
+staking solo might be ideal for newer users.
+What is cold staking?
+Cold staking refers to the process of staking on a wallet that’s not connected to the Internet. This may be done using a hardware wallet, 
+but it’s also possible with an air-gapped software wallet.
+Networks that support cold staking allow users to stake while securely holding their funds offline. It’s worth noting that if the stakeholder 
+moves their coins out of cold storage, they’ll stop receiving rewards.
+Cold staking is particularly useful for large stakeholders who want to ensure maximum protection of their funds while supporting the network.
+
