@@ -1,0 +1,120 @@
+A loan from strangers that doesn’t require the user to sacrifice any of their own money? It’s possible, on one condition: individuals must repay the lender
+in the same transaction that issued the funds. That sounds strange, doesn’t it? What can you do with a loan that needs to be paid back seconds later?
+Well, it turns out that you can call smart contracts in that same transaction. If you can make more money using your loan, you can return the money 
+and pocket the profits in the blink of an eye. It’s not that easy, though. Read on to learn more about the newest additions to the DeFi ecosystem.
+
+How do regular loans work?
+Most of us understand how a regular loan works. Still, it's worth reiterating so that we can make the comparison later.
+
+Unsecured loans
+An unsecured loan is a loan where you don't need to put forward any collateral. In other words, there isn't an asset you agree that the lender can have
+if you don't repay the loan. For example, suppose that you really want a $3,000 gold chain with the CoreSwap logo hanging from it. You don't have the 
+cash available to you, but you will when you get paid next week.
+You speak to your friend Bob. You explain to him how badly you want this chain, how it will improve your trading game by at least 20%, and he agrees to
+lend you the money. On the condition, of course, that you repay him as soon as your paycheck comes in.
+Bob's your good friend, so he didn't leverage a fee when he lent you the $3,000. Not everyone will be so kind – but, then again, why should they be? 
+Bob trusts you to pay him back. Another person might not know you, so they don't know if you're going to run off with their money.
+Typically, unsecured loans from institutions require some kind of credit check. They'll look at your track record (the credit score) to measure your 
+ability to repay. If they see that you've taken out several loans and paid them back on time, they might think huh, they're pretty reliable. Let's lend them some money.
+
+At that point, the institution gives you the money, but it comes with strings attached. Those strings are interest rates. To get the money now, you 
+need to accept that you'll be paying back a higher amount later.
+
+You might be familiar with this model if you use a credit card. If you don't pay your bill for a given period, you get charged interest until you repay 
+the full balance (and additional fees).
+
+Secured loans
+Sometimes a good credit score isn't enough. Even if you've repaid all of your loans on time for decades, you'll have a tough time borrowing large 
+sums of money based solely on your creditworthiness. In these cases, you need to put up collateral.
+If you ask someone for a big loan, it's risky for them to accept it. To lower their risk a bit, they'll demand that you put some skin in the game. 
+An asset of yours – it could be anything from jewelry to property – will become the lender's if you fail to pay them back in time. The idea here is 
+that the lender can then recover some of the value that they've lost. In a nutshell, that's collateral.
+Suppose that you now want a $50,000 car. Bob trusts you, but he doesn't want to give you the money in the form of an unsecured loan. Instead, he asks 
+that you put up some collateral – your collection of jewelry. Now, if you fail to repay the loan, Bob can seize your collection and sell it.
+
+How does a flash loan work?
+Let's call a flash loan an unsecured loan, purely because you don't provide any collateral. But you also don't need to pass a credit check or 
+anything like that. You simply ask the lender if you can borrow $50,000 in ETH, they say yep! Here you go! and you're off.
+The catch? A flash loan must be repaid in the same transaction. 
+
+That's not very intuitive at all, but that's only because we're used to a typical transaction format where funds move from one user to another. 
+Like when you pay for goods or services, or deposit tokens into an exchange.
+
+However, if you know a bit about Ethereum, you'll know that the platform is pretty flexible – that's why some call it programmable money. 
+In the case of a flash loan, you can think of your transaction "program" as being made up of three parts: receive the loan, do something with 
+the loan, repay the loan. And it all happens in a flash!
+
+Let's just attribute it to the magic of blockchain technology. The transaction gets submitted to the network, temporarily lending you those funds. 
+You can do some stuff in part two of the transaction. Do whatever you want, so long as the funds are back in time for part three. If they're not,
+the network rejects the transaction, meaning that the lender gets their funds back. Actually, as far as the blockchain is concerned, they always had the funds.
+That explains why the lender doesn't require collateral from you. The contract to repay is enforced by code. 
+
+But what's the point?
+At this stage, you're probably wondering why you'd take out a flash loan. If all of this occurs in a single transaction, you can't exactly purchase a 
+Lambo, can you? Well, that's not really the goal here. Let's focus on part two of the transaction described previously, where you do something with the loan. 
+The idea is to feed the funds into a smart contract (or chain of contracts), flip a profit, and return the initial loan at the end of the transaction. 
+As you can see, the point of flash loans is to profit.
+
+
+There are a couple of use cases where this could come in handy. Evidently, you can't do any off-chain stuff in the meantime, but you can tap into DeFi 
+protocols to make more money using your loan. The most popular applications are in arbitrage, where you take advantage of price disparities across 
+different trading venues. 
+
+Suppose that a token trades for $10 at DEX A, but $10.50 at DEX B. Assuming zero fees, buying ten tokens on DEX A before reselling them on DEX B would
+yield a profit of $5. This kind of activity isn't going to buy you a private island anytime soon, but you can see how you could make some money by 
+trading large volumes. If you purchased 10,000 tokens for $100,000 and successfully flipped them for $105,000, you’d be left with a profit of $5,000.
+
+If you acquire a flash loan, you can take advantage of arbitrage opportunities like this on decentralized exchanges. Here's an example of what that 
+might look like:
+•	Take out a $10,000 loan
+•	Use the loan to buy tokens on DEX A
+•	Resell the tokens on DEX B
+•	Return the loan (plus any interest)
+•	Keep the profit
+
+All in one transaction! Realistically, though, the fees to transact, combined with high competition, interest rates, and slippage, make the margins for 
+arbitrage razor-thin. You would need to find a way to game price differences to make the activity profitable. When you compete against thousands of 
+other users trying to do the same, you won't have much luck.
+Flash loan attacks
+Cryptocurrency, and, by extension, DeFi, is a highly experimental field. When so much money is at stake, it's only a matter of time before vulnerabilities 
+are discovered. In Ethereum, we saw an example of this with the iconic 2017 DAO hack. Numerous protocols have since been 51% attacked for financial gain.
+In 2020, two high-profile flash loan attacks saw attackers make off with almost $1,000,000 in value at the time. Both attacks followed a similar pattern. 
+
+The first flash loan attack
+In the first, the borrower took out an ether flash loan on dYdX (a lending DApp). Then, they divided that loan and sent it to two other lending
+platforms: Compound and Fulcrum.
+
+On Fulcrum (built on the bZx protocol), the attacker used a portion of the loan to short ETH against wrapped Bitcoin (WBTC), meaning that Fulcrum now had
+to acquire WBTC. This information was relayed to yet another DeFi protocol, Kyber, which filled the order on Uniswap, a popular Ethereum-based DEX. 
+But, because of Uniswap's low liquidity, the price of WBTC rose significantly, meaning that Fulcrum overpaid for the WBTC it purchased.
+At the same time, the attacker took out a Compound loan of WBTC using the rest of the dYdX loan. The price pumped, they flipped the borrowed WBTC on 
+Uniswap and made off with a decent profit. Lastly, they repaid their loan from dYdX and pocketed the leftover ETH.
+It seems like a lot of work, and might even be difficult to follow. The bottom line is that the attacker leveraged five different DeFi protocols to 
+manipulate the markets. Incredibly, all of this happened in the time it took the original flash loan to be confirmed.
+Have you identified where the problem was? It was in the bZx protocol used by Fulcrum. By manipulating the market, the attacker was able to trick it 
+into thinking that WBTC was worth a lot more than it actually was.
+The second flash loan attack
+It wasn't a good week for bZx. Only days later, it was hit by another attack. The perpetrator took out a flash loan and converted part of it into a 
+stablecoin (sUSD). You probably already know that stablecoins track the price of fiat currencies. It's got USD in the name, after all.
+
+Despite their name, smart contracts aren't that intelligent. They don't know what stablecoins are meant to cost. So when the attacker put in a huge 
+order to buy sUSD (using borrowed ETH), the price doubled on Kyber.
+bZx thought that sUSD was worth $2 instead of $1. The attacker then took out a much bigger ETH loan than would have been normally allowed on bZx 
+since their $1 coin had the purchasing power of $2. Finally, the attacker repaid the initial flash loan and ran off with the rest.
+Are flash loans risky?
+Right or wrong, this particular attack vector is impressive, if only because it showcases how far attackers can go. It's easy to retrospectively look at
+the methods they used and say bZx should have used a different price oracle to get its data. But the reality is that this kind of heist is incredibly 
+cheap: it doesn't require much investment from the attacker. There was no financial deterrent that prevented them from pulling this off.
+
+Traditionally, tremendous amounts of cryptocurrency were needed by individuals or groups that wanted to manipulate the market. But with flash loans, 
+anyone can become a whale for a few seconds. And, as we've seen, a few seconds is all you need to make off with hundreds of thousands of dollars' 
+worth of ether.
+On the bright side, the rest of the space will learn from the two attacks. Is it likely that someone else will successfully pull one off again, 
+now that everyone knows about them? 
+
+Perhaps. Oracles have a number of weaknesses, as seen in the second attack, and they need considerable work to be rid of such vulnerabilities.
+
+All in all, this isn't a fault with flash loans, specifically – the vulnerabilities that were exploited were in other protocols, while the flash 
+loans just financed the attack. This form of DeFi lending could have many interesting use cases in the future, especially given the low risks for 
+both borrowers and lenders.
+
