@@ -1,0 +1,50 @@
+A liquidity pool is a collection of funds locked in a smart contract. Liquidity pools are used to facilitate decentralized trading, lending, and many more functions.
+Liquidity pools are the backbone of many decentralized exchanges (DEX), such as CoreSwap. Users called liquidity providers (LP), add an equal value of two tokens in a pool to create a market. In exchange for providing their funds, they earn trading fees from the trades that happen in their pool, proportional to their share of the total liquidity.
+As anyone can be a liquidity provider.
+One of the first protocols to use liquidity pools was Bancor, but the concept gained more attention with the popularization of Uniswap. 
+
+Liquidity pools vs. order books
+To understand how liquidity pools are different, let’s look at the fundamental building block of electronic trading – the order book. Simply put, the order book is a collection of the currently open orders for a given market.
+The system that matches orders with each other is called the matching engine. Along with the matching engine, the order book is the core of any centralized exchange (CEX). This model is great for facilitating efficient exchange and allowed the creation of complex financial markets.
+
+DeFi trading, however, involves executing trades on-chain, without a centralized party holding the funds. This presents a problem when it comes to order books. Each interaction with the order book requires gas fees, which makes it much more expensive to execute trades.
+
+It also makes the job of market makers, traders who provide liquidity for trading pairs, extremely costly. Above all, however, most blockchains can’t handle the required throughput for trading billions of dollars every day.
+
+This means that on a blockchain like Ethereum, an on-chain order book exchange is practically impossible. You could use sidechains or layer-two solutions, and these are on the way. However, the network isn’t able to handle the throughput in its current form.
+
+Even so, since much of the assets in the crypto space are on Ethereum, you can’t trade them on other networks unless you use some kind of cross-chain bridge.
+
+How do liquidity pools work?
+Automated market makers (AMM) have changed this game. They are a significant innovation that allows for on-chain trading without the need for an order book. As no direct counterparty is needed to execute trades, traders can get in and out of positions on token pairs that likely would be highly illiquid on order book exchanges.
+You could think of an order book exchange as peer-to-peer, where buyers and sellers are connected by the order book. For example, trading on CoreSwap DEX is peer-to-peer since trades happen directly between user wallets.
+
+Trading using an AMM is different. You could think of trading on an AMM as peer-to-contract.
+As we’ve mentioned, a liquidity pool is a bunch of funds deposited into a smart contract by liquidity providers. When you’re executing a trade on an AMM, you don’t have a counterparty in the traditional sense. Instead, you’re executing the trade against the liquidity in the liquidity pool. For the buyer to buy, there doesn’t need to be a seller at that particular moment, only sufficient liquidity in the pool.
+When you’re buying the latest coin on CoreSwap, there isn’t a seller on the other side in the traditional sense. Instead, your activity is managed by the algorithm that governs what happens in the pool. In addition, pricing is also determined by this algorithm based on the trades that happen in the pool. If you’d like to get a deeper dive into how this works, read Automated Market Making topic on CoreSwap blog. 
+
+Of course, the liquidity has to come somewhere, and anyone can be a liquidity provider, so they could be viewed as your counterparty in some sense. But, it’s not the same as in the case of the order book model, as you’re interacting with the contract that governs the pool.
+
+What are liquidity pools used for?
+So far, we’ve mostly discussed AMMs, which have been the most popular use of liquidity pools. However, as we’ve said, pooling liquidity is a profoundly simple concept, so it can be used in a number of different ways.
+One of these is yield farming or liquidity mining. Liquidity pools are the basis of automated yield-generating platforms like Yearn, where users add their funds to pools that are then used to generate yield. Distributing new tokens in the hands of the right people is a very difficult problem for crypto projects. Liquidity mining has been one of the more successful approaches. Basically, the tokens are distributed algorithmically to users who put their tokens into a liquidity pool. Then, the newly minted tokens are distributed proportionally to each user’s share of the pool.
+Bear in mind; these can even be tokens from other liquidity pools called pool tokens. For example, if you’re providing liquidity to CoreSwap or lending funds to Compound, you’ll get tokens that represent your share in the pool. You may be able to deposit those tokens into another pool and earn a return. These chains can become quite complicated, as protocols integrate other protocols’ pool tokens into their products, and so on.
+
+We could also think about governance as a use case. In some cases, there’s a very high threshold of token votes needed to be able to put forward a formal governance proposal. If the funds are pooled together instead, participants can rally behind a common cause they deem important for the protocol.
+Another emerging DeFi sector is insurance against smart contract risk. Many of its implementations are also powered by liquidity pools.
+Another, even more cutting-edge use of liquidity pools is for tranching. It’s a concept borrowed from traditional finance that involves dividing up financial products based on their risks and returns. As you’d expect, these products allow LPs to select customized risk and return profiles.
+
+Minting synthetic assets on the blockchain also relies on liquidity pools. Add some collateral to a liquidity pool, connect it to a trusted oracle, and you’ve got yourself a synthetic token that’s pegged to whatever asset you’d like. 
+
+Alright, in reality, it’s a more complicated problem than that, but the basic idea is this simple. What else can we think of? There are probably many more uses for liquidity pools that are yet to be uncovered, and it’s all up to the ingenuity of DeFi developers.
+
+The risks of liquidity pools
+If you provide liquidity to an AMM, you’ll need to be aware of a concept called impermanent loss. In short, it’s a loss in dollar value compared to holding, when you’re providing liquidity to an AMM.
+
+If you’re providing liquidity to an AMM, you’re probably exposed to impermanent loss. Sometimes it can be tiny; sometimes it can be huge. 
+
+Another thing to keep in mind is smart contract risks. When you deposit funds into a liquidity pool, they are in the pool. So, while there are technically no middlemen holding your funds, the contract itself can be thought of as the custodian of those funds. If there is a bug or some kind of exploit through a flash loan, for example, your funds could be lost forever.
+
+Also, be wary of projects where the developers have permission to change the rules governing the pool. Sometimes, developers can have an admin key or some other privileged access within the smart contract code. This can enable them to potentially do something malicious, like taking control of the funds in the pool. Read our DeFi scams article to try and avoid rug pulls and exit scams as best you can.
+
+
