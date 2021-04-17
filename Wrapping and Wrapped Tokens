@@ -1,0 +1,64 @@
+Ever found it frustrating that you can’t use BTC on Ethereum? Coins that exist on a given blockchain can’t be simply transferred to another. 
+Wrapped tokens are a way to circumvent this limitation and use non-native assets on a blockchain.
+A wrapped token is a cryptocurrency token pegged to the value of another crypto. It’s called a wrapped token because the original asset is put 
+in a wrapper, a kind of digital vault that allows the wrapped version to be created on another blockchain.
+What’s the point? Well, different blockchains offer different functionality. And they can’t talk to each other. The Bitcoin blockchain doesn’t 
+know what’s happening on the Ethereum blockchain. However, with wrapped tokens, there can be more bridges between different blockchains.
+
+What is a wrapped token?
+A wrapped token is a tokenized version of another cryptocurrency. It’s pegged to the value of the asset it represents and typically can be 
+redeemed for it (unwrapped) at any point. It usually represents an asset that doesn’t natively live on the blockchain that it’s issued on.
+
+You could think of a wrapped token as being similar to a stable coin in that it derives its value from another asset. In a stable coin's case, 
+that’s usually fiat currency. In a wrapped token’s case, it’s usually an asset natively living on another blockchain.
+As blockchains are distinct systems, there isn’t a good way to move information between them. Wrapped tokens increase interoperability between 
+different blockchains – the underlying tokens can, in essence, go cross-chain.
+It’s worth noting that if you’re an ordinary user, you don’t have to worry about the wrapping and unwrapping process; you can just trade these 
+wrapped tokens like any other cryptocurrency. For example, this is the WBTC/BTC market on Binance.
+
+How do wrapped tokens work?
+Let’s use Wrapped Bitcoin (WBTC) as our example, a tokenized version of Bitcoin on Ethereum. WBTC is an ERC-20 token that’s supposed to hold a 
+one-to-one peg to the value of Bitcoin, allowing you to effectively use BTC on the Ethereum network.
+
+Wrapped tokens typically require a custodian – an entity that holds an equivalent amount of the asset as the wrapped amount. This custodian can 
+be a merchant, a multi-sign wallet, a DAO, or even a smart contract. So, in WBTC’s case, the custodian needs to hold 1 BTC for each 1 WBTC that 
+is minted. Proof of this reserve exists on-chain. 
+
+But how does the wrapping process work? 
+A merchant sends BTC for the custodian to mint. The custodian then mints WBTC on Ethereum according to the amount of BTC sent. 
+When the WBTC needs to be exchanged back to BTC, the merchant puts in a burn request to the custodian, and the BTC is released from the reserves. 
+You can think of the custodian as the wrapper and unwrapper. In WBTC’s case, adding and removing custodians and merchants is performed by a DAO.
+
+While some in the community may refer to Tether (USDT) as a wrapped token, this isn’t exactly the case. While USDT generally trades one-for-one with USD, 
+Tether does not hold the exact amount of physical USD for each USDT circulating in their reserves. Instead, this reserve is made up of cash and other 
+real-world cash equivalents, assets, and receivables from loans. However, the idea is very similar. Each USDT token acts as a kind of wrapped version 
+of a fiat USD.
+
+Wrapped tokens on Ethereum
+Wrapped tokens on Ethereum are tokens from other blockchains that are made to be compliant with the ERC-20 standard. This means that you can use 
+assets that are not native to Ethereum on Ethereum. As you’d expect, wrapping and unwrapping tokens on Ethereum costs gas.
+An interesting example of a wrapped token on Ethereum is wrapped ether (WETH). A quick recap – ETH (ether) is required to pay for transactions 
+on the Ethereum network, while ERC-20 is a technical standard for issuing tokens on Ethereum. For example, Basic Attention Token (BAT) 
+and OmiseGO (OMG) are ERC-20 tokens.
+
+However, since ETH was developed before the ERC-20 standard, it isn’t compliant with it. This creates a problem, as many DApps require you 
+to convert between ether and an ERC-20 token. This is why wrapped ether (WETH) was created. It’s a wrapped version of ether that is compliant 
+with the ERC-20 standard. It’s basically a tokenized version of ether on Ethereum!
+
+Benefits of using wrapped tokens
+Even though many blockchains have their own token standards (ERC-20 for Ethereum or BEP-20 for BSC), these standards can’t be used across multiple chains. 
+Wrapped tokens allow non-native tokens to be used on a given blockchain.
+In addition, wrapped tokens can increase liquidity and capital efficiency both for centralized and decentralized exchanges. The ability to 
+wrap idle assets and use them on another chain can create more connection between otherwise isolated liquidity.
+And lastly, a great benefit is transaction times and fees. While Bitcoin has some fantastic properties, it isn’t the fastest and can 
+sometimes be expensive to use. While that’s fine for what it is, it can cause some headaches sometimes. These issues can be mitigated by 
+using a wrapped version on a blockchain with faster transaction times and lower fees.
+
+Limitations of using wrapped tokens
+Most of the current implementations of wrapped tokens require trust in the custodian holding the funds. As for the currently available 
+technology, wrapped tokens can’t be used for true cross-chain transactions – they usually need to go through a custodian. 
+However, some more decentralized options are in the works and may be available in the future for completely trustless wrapped 
+token minting and redemption.
+The minting process can also be relatively costly thanks to high gas fees and can incur some slippage.
+
+
