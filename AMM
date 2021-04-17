@@ -1,0 +1,28 @@
+An automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.
+This formula can vary with each protocol. For example, CoreSwap uses x * y = k, where x is the amount of one token in the liquidity pool, and y is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same. Other AMMs will use other formulas for the specific use cases they target. The similarity between all of them, however, is that they determine the prices algorithmically. If this is a bit confusing right now, don’t worry; hopefully, it’ll all come together in the end. 
+
+Traditional market making usually works with firms with vast resources and complex strategies. Market makers help you get a good price and tight bid-ask spread on an order book exchange like CoinBase, Binance and SynchroBit. Automated market makers decentralize this process and let essentially anyone create a market on a blockchain. How exactly can they do that? Let’s read on.
+
+How does an automated market maker (AMM) work?
+An AMM works similarly to an order book exchange in that there are trading pairs – for example, ETH/DAI. However, you don’t need to have a counterparty (another trader) on the other side to make a trade. Instead, you interact with a smart contract that “makes” the market for you.
+On a decentralized exchange like CoreSwap DEX, trades happen directly between user wallets. If you sell ETH for USDT on CoreSwap DEX, there’s someone else on the other side of the trade buying ETH  with their USDT. We can call this a peer-to-peer (P2P) transaction. 
+
+In contrast, you could think of AMMs as peer-to-contract (P2C). This feature is available on CoreSwap’s SWAP function where there’s no need for counterparties in the traditional sense, as trades happen between users and contracts. Since there’s no order book, there are also no order types on an AMM. What price you get for an asset you want to buy or sell is determined by a formula instead. Although it’s worth noting that some future AMM designs may counteract this limitation.
+
+What is a Liquidity Pool?
+So on AMMs there’s no need for counterparties, but someone still has to create the market, right? Correct. The liquidity in the smart contract still has to be provided by users called liquidity providers (LPs).
+Liquidity providers (LPs) add funds to liquidity pools. You could think of a liquidity pool as a big pile of funds that traders can trade against. In return for providing liquidity to the protocol, LPs earn fees from the trades that happen in their pool. In the case of CoreSwap, Uniswap and the other swap platforms, LPs deposit an equivalent value of two tokens – for example, 50% ETH and 50% DAI to the ETH/DAI pool.
+Hang on, so anyone can become a market maker? Indeed! It’s quite easy to add funds to a liquidity pool. The rewards are determined by the protocol. For example, CoreSwap charges traders a marginal fees that goes directly to LPs. Other platforms or forks may charge less to attract more liquidity providers to their pool.
+Why is attracting liquidity important? Due to the way AMMs work, the more liquidity there is in the pool, the less slippage large orders may incur. That, in turn, may attract more volume to the platform, and so on.
+
+The slippage issues will vary with different AMM designs, but it’s definitely something to keep in mind. Remember, pricing is determined by an algorithm. In a simplified way, it’s determined by how much the ratio between the tokens in the liquidity pool changes after a trade. If the ratio changes by a wide margin, there’s going to be a large amount of slippage.
+To take this a bit further, let’s say you wanted to buy all the ETH in the ETH/DAI pool on CoreSwap. Well, you couldn’t! You’d have to pay an exponentially higher and higher premium for each additional ether, but still never could buy all of it from the pool. Why? It’s because of the formula x * y = k. If either x or y is zero, meaning there is zero ETH or DAI in the pool, the equation doesn’t make sense anymore.
+
+But this isn’t the complete story about AMMs and liquidity pools. You’ll need to keep in mind something else when providing liquidity to AMMs – impermanent loss.
+What is impermanent loss?
+Impermanent loss happens when the price ratio of deposited tokens changes after you deposited them in the pool. The larger the change is, the bigger the impermanent loss. This is why AMMs work best with token pairs that have a similar value, such as stable coins (like DAI, PAX, USDT, TUSDT, BUSD) or wrapped tokens (like WBTC). If the price ratio between the pair remains in a relatively small range, impermanent loss is also negligible.
+On the other hand, if the ratio changes a lot, liquidity providers may be better off simply holding the tokens instead of adding funds to a pool. Even so, CoreSwap pools like ETH/DAI that are quite exposed to impermanent loss have been profitable thanks to the trading fees they accrue.
+
+With that said, impermanent loss isn’t a great way to name this phenomenon. “Impermanence” assumes that if the assets revert to the prices where they were originally deposited, the losses are mitigated. However, if you withdraw your funds at a different price ratio than when you deposited them, the losses are very much permanent. In some cases, the trading fees might mitigate the losses, but it’s still important to consider the risks.
+
+
