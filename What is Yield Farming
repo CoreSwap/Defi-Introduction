@@ -1,0 +1,72 @@
+Yield farming, also referred to as liquidity mining, is a way to generate rewards with cryptocurrency holdings. In simple terms, it means locking up
+cryptocurrencies and getting rewards. In some sense, yield farming can be paralleled with staking. However, there’s a lot of complexity going on in 
+the background. In many cases, it works with users called liquidity providers (LP) that add funds to liquidity pools.
+
+Some liquidity pools pay their rewards in multiple tokens. Those reward tokens then may be deposited to other liquidity pools to earn rewards there, 
+and so on. You can already see how incredibly complex strategies can emerge quite quickly. But the basic idea is that a liquidity provider deposits 
+funds into a liquidity pool and earns rewards in return.
+
+Yield farming is typically done using ERC-20 tokens on Ethereum, and the rewards are usually also a type of ERC-20 token. This, however, may change 
+in the future. Why? For now, much of this activity is happening in the Ethereum ecosystem. 
+
+However, cross-chain bridges and other similar advancements may allow DeFi applications to become blockchain-agnostic in the future. This means that 
+they could run on other blockchains that also support smart contract capabilities.
+
+Yield farmers will typically move their funds around quite a lot between different protocols in search of high yields. As a result, DeFi platforms 
+may also provide other economic incentives to attract more capital to their platform. 
+
+Just like on centralized exchanges, liquidity tends to attract more liquidity.
+What is Total Value Locked (TVL)?
+So, what’s a good way to measure the overall health of the DeFi yield farming scene? Total Value Locked (TVL). It measures how much crypto is locked 
+in DeFi lending and other types of money marketplaces.
+
+In some sense, TVL is the aggregate liquidity in liquidity pools. It’s a useful index to measure the health of the DeFi and yield farming market as a 
+whole. It’s also an effective metric to compare the “market share” of different DeFi protocols.
+
+A good place to track TVL is DeFi Pulse. You can check which platforms have the highest amount of ETH or other crypto assets locked in DeFi. 
+This can give you a general idea about the current state of yield farming.
+
+Naturally, the more value is locked, the more yield farming may be going on. It’s worth noting that you can measure TVL in ETH, USD, or even BTC. 
+Each will give you a different outlook for the state of the DeFi money markets.
+How does yield farming work?
+Yield farming is closely related to a model called automated market maker (AMM). It typically involves liquidity providers (LPs) and liquidity pools. 
+Let’s see how it works.
+Liquidity providers deposit funds into a liquidity pool. This pool powers a marketplace where users can lend, borrow, or exchange tokens. The usage of 
+these platforms incurs fees, which are then paid out to liquidity providers according to their share of the liquidity pool. This is the foundation of 
+how an AMM works.
+However, the implementations can be vastly different – not to mention that this is a new technology. It’s beyond doubt that we’re going to see new 
+approaches that improve upon the current implementations.
+On top of fees, another incentive to add funds to a liquidity pool could be the distribution of a new token. For example, there may not be a way to 
+buy a token on the open market, only in small amounts. On the other hand, it may be accumulated by providing liquidity to a specific pool. 
+The rules of distribution will all depend on the unique implementation of the protocol. The bottom line is that liquidity providers get a return 
+based on the amount of liquidity they are providing to the pool.
+The funds deposited are commonly stable coins pegged to the USD – though this isn’t a general requirement. Some of the most common stable coins 
+used in DeFi are DAI, USDT, USDC, BUSD, and others. Some protocols will mint tokens that represent your deposited coins in the system. For example, 
+if you deposit DAI into Compound, you’ll get cDAI, or Compound DAI. If you deposit ETH to Compound, you’ll get cETH.
+
+As you can imagine, there can be many layers of complexity to this. You could deposit your cDAI to another protocol that mints a third token to 
+represent your cDAI that represents your DAI. And so on, and so on. These chains can become really complex and hard to follow.
+
+How are yield farming returns calculated?
+Typically, the estimated yield farming returns are calculated annualized. This estimates the returns that you could expect over the course of a year.
+Some commonly used metrics are Annual Percentage Rate (APR) and Annual Percentage Yield (APY). The difference between them is that APR doesn’t take 
+into account the effect of compounding, while APY does. Compounding, in this case, means directly reinvesting profits to generate more returns. 
+However, be aware that APR and APY may be used interchangeably.
+It’s also worth keeping in mind that these are only estimations and projections. Even short-terms rewards are quite difficult to estimate accurately. 
+Why? Yield farming is a highly competitive and fast-paced market, and the rewards can fluctuate rapidly. If a yield farming strategy works for a while, 
+many farmers will jump on the opportunity, and it may stop yielding high returns. 
+As APR and APY come from the legacy markets, DeFi may need to find its own metrics for calculating returns. Due to the fast pace of DeFi, weekly or 
+even daily estimated returns may make more sense.
+What is collateralization in DeFi?
+Typically, if you’re borrowing assets, you need to put up collateral to cover your loan. This essentially acts as insurance for your loan. How is 
+this relevant? This depends on what protocol you’re supplying your funds to, but you may need to keep a close eye on your collateralization ratio. 
+
+If your collateral’s value falls below the threshold required by the protocol, your collateral may be liquidated on the open market. What can you do 
+to avoid liquidation? You can add more collateral.
+To reiterate, each platform will have its own set of rules for this, i.e., their own required collateralization ratio. In addition, they commonly 
+work with a concept called overcollateralization. This means that borrowers have to deposit more value than they want to borrow. Why? To reduce 
+the risk of violent market crashes liquidating a large amount of collateral in the system.
+So, let’s say that the lending protocol you’re using requires a collateralization ratio of 200%. This means that for every 100 USD of value you 
+put in, you can borrow 50 USD. However, it’s usually safer to add more collateral than required to reduce liquidation risk even more. With that 
+said, many systems will use very high collateralization ratios (such as 750%) to keep the entire platform relatively safe from liquidation risk.
+
